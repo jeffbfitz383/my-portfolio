@@ -105,3 +105,9 @@ h1{
     background: #4837ff;
     transition: all 0.3s ease;
 }
+
+.navbar__links:hover{
+    color: #f77062;
+    transiton: all 0.3s ease;
+
+}
