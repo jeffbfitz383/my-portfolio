@@ -152,7 +152,7 @@ h1{
         padding-left:25px;
     }
 
-    .navbar__toggle.bar{
+    .navbar__toggle. bar{
         width:25px;
         height: 3px;
         margin: 5px auto;
@@ -185,6 +185,33 @@ h1{
         padding-bottom: 2rem;
     }
 
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+
+    .nav_toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-avtive .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    #mobile-menu.is-avtive .bar:nth-child(1) {
+        transform: translate(8px) rotate(45deg);
+
+    }
+
+    #mobile-menu.is-avtive .bar:nth-child(3) {
+        transform: translate(-8px) rotate(-45deg);
+        
+    }
 
 
 }
