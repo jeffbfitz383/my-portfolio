@@ -340,7 +340,7 @@ mobile resposive*/
         height: 90vh;
     }
 
-    .main_content {
+    .main__content {
         text-align: center;
         margin-bottom: 4rem;
     }
@@ -350,7 +350,12 @@ mobile resposive*/
         margin-top: 2rem;
     }
 
-    .main_content h2{
+    .main__content h2{
         font-siaz: 3rem;
+    }
+
+    .main__content p {
+        margin-top:1rem;
+        font-size: 1.5rem;
     }
 }
