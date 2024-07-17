@@ -320,5 +320,23 @@ h1{
     text-align: center;
 }
 
+#main_img {
+    height: 80%;
+    width: 80%;
+}
 
 
+/*
+mobile resposive*/
+
+@media screen and (max-width) {
+    .main_container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items:center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+}
